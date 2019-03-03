@@ -26,7 +26,7 @@ type Stats struct {
 }
 
 const (
-	apiUrl = "http://api.poe.ninja/api/Data/GetStats"
+	apiUrl = "https://poe.ninja/api/Data/GetStats"
 )
 
 func NewClient(timeout time.Duration) *Client {
